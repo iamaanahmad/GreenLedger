@@ -1,0 +1,54 @@
+Chosen category
+Greener Lending
+
+Project idea — EcoLoan Insights
+A desktop-based web app that helps lenders score, verify, and trade loans based on environmental impact and sustainability credentials. It combines ESG scoring, automated green-tag verification, and portfolio analytics so banks can price, prioritize, and report green loans with confidence.
+
+Core challenge to solve
+Problem: Lenders struggle to verify and quantify the environmental impact of loans, which slows green lending, creates reporting risk, and prevents accurate pricing.
+Goal: Provide a lightweight, auditable system that converts sustainability signals into actionable scores and tradeable tags, reducing verification time and increasing market liquidity for green loans.
+
+Features to implement
+Core (MVP)
+
+Green Score Engine — compute a standardized ESG score per loan from mock inputs (project type, emissions estimate, certifications).
+
+Verification Workflow — checklist + document upload placeholder; simulated third‑party verification stamp.
+
+Green Tagging — attach immutable “GreenTag” to loans that pass verification (simulated ledger).
+
+Green Marketplace Filter — marketplace view filtered by GreenTag and score.
+
+ESG Analytics Dashboard — portfolio CO₂ estimate, % green loans, yield vs. green score chart.
+
+Exportable Green Report — downloadable summary for regulators/investors (mock PDF view).
+
+Advanced (optional polish)
+
+API stub for carbon data (mocked) to auto-populate emissions.
+
+Scenario simulator — show how refinancing or green upgrades improve score and yield.
+
+Investor view — risk/return tradeoff visualization for green vs non-green loans.
+
+Audit trail — immutable log of verification steps and score changes.
+
+Why this is commercially viable
+Regulatory tailwind: Banks need ESG reporting; this reduces manual effort.
+
+Market differentiation: Enables premium pricing for verified green loans.
+
+Liquidity: GreenTag makes loans discoverable to ESG-focused buyers.
+
+Low barrier to demo: Scoring and verification can be convincingly simulated with mock data.
+
+Lean tech stack suggestion
+Frontend: React + TypeScript + Tailwind (you already use these)
+
+State / Mock backend: Local JSON or Firebase (mock verification status)
+
+Charts: Recharts or Chart.js
+
+Packaging: Vite for web; optional Electron wrapper for desktop feel
+
+Extras: Use AI-assisted coding for scoring heuristics and report text
