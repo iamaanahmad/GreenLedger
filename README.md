@@ -208,7 +208,7 @@ Directly addresses ESG transparency and verification challenges
 
 ## 📄 License
 
-MIT License - Built for LMA Edge Hackathon 2026
+MIT License - Built for LMA Edge Hackathon 2025-26
 
 ## 🏅 Submission Details
 
@@ -216,8 +216,8 @@ MIT License - Built for LMA Edge Hackathon 2026
 - **Project**: GreenLedger
 - **Tagline**: The Immutable Trust Layer for Green Lending
 - **Hackathon**: LMA Edge Hackathon
-- **Demo Video**: [Link to be added]
-- **Live Demo**: [Link to be added]
+- **Demo Video**: https://www.youtube.com/watch?v=gWcB3yaoicQ
+- **Live Demo**: https://greenledger.appwrite.network/s
 
 ---
 
